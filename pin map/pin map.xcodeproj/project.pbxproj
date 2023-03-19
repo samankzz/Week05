@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F204766629B7CAAE0003290F /* currentloc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204766529B7CAAE0003290F /* currentloc.swift */; };
-		F204766829B7CDDA0003290F /* locview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204766729B7CDDA0003290F /* locview.swift */; };
+		F204766A29C2556C0003290F /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F204766929C2556C0003290F /* Timer.swift */; };
 		F20F109D29A51D7400B39D0E /* UrlAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20F109C29A51D7400B39D0E /* UrlAudio.swift */; };
 		F24948A32999868B00859155 /* pin_mapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24948A22999868B00859155 /* pin_mapApp.swift */; };
 		F24948A52999868B00859155 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24948A42999868B00859155 /* ContentView.swift */; };
@@ -39,8 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F204766529B7CAAE0003290F /* currentloc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentloc.swift; sourceTree = "<group>"; };
-		F204766729B7CDDA0003290F /* locview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locview.swift; sourceTree = "<group>"; };
+		F204766929C2556C0003290F /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		F20F109C29A51D7400B39D0E /* UrlAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlAudio.swift; sourceTree = "<group>"; };
 		F249489F2999868B00859155 /* pin map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pin map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24948A22999868B00859155 /* pin_mapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pin_mapApp.swift; sourceTree = "<group>"; };
@@ -106,9 +104,8 @@
 			children = (
 				F24948A22999868B00859155 /* pin_mapApp.swift */,
 				F24948A42999868B00859155 /* ContentView.swift */,
-				F204766729B7CDDA0003290F /* locview.swift */,
-				F204766529B7CAAE0003290F /* currentloc.swift */,
 				F20F109C29A51D7400B39D0E /* UrlAudio.swift */,
+				F204766929C2556C0003290F /* Timer.swift */,
 				F24948CE29998B5300859155 /* Homeview.swift */,
 				F24948CC299989BE00859155 /* Mapview.swift */,
 				F24948A62999868D00859155 /* Assets.xcassets */,
@@ -272,12 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F204766829B7CDDA0003290F /* locview.swift in Sources */,
 				F24948A52999868B00859155 /* ContentView.swift in Sources */,
+				F204766A29C2556C0003290F /* Timer.swift in Sources */,
 				F24948CF29998B5300859155 /* Homeview.swift in Sources */,
 				F24948CD299989BE00859155 /* Mapview.swift in Sources */,
 				F20F109D29A51D7400B39D0E /* UrlAudio.swift in Sources */,
-				F204766629B7CAAE0003290F /* currentloc.swift in Sources */,
 				F24948A32999868B00859155 /* pin_mapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
